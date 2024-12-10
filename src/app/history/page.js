@@ -62,7 +62,7 @@ const History = () => {
     window.addEventListener('mousemove', handleMouseMove);
     getProjects();
     return () => window.removeEventListener('mousemove', handleMouseMove);
-  }, [project,user]);
+  }, [project , user]);
 
   const handleDelete = async(id) => {
     /*const updatedHistory = history.filter(item => item.id !== id);
@@ -143,7 +143,7 @@ return (
             linear-gradient(rgba(255, 255, 255, 0.1) 1px, transparent 1px),
             linear-gradient(90deg, rgba(255, 255, 255, 0.1) 1px, transparent 1px)
           `,
-          backgroundSize: '20px 20px'
+          backgroundSize: "20px 20px"
         }}
       />
 
@@ -176,16 +176,14 @@ return (
           </p>
         </div>
       ) : (
-        <div className="bg-gray-800/50 rounded-lg border border-gray-700 backdrop-blur-sm 
-                     shadow-lg overflow-hidden">
+        <div className="bg-gray-800/50 rounded-lg border border-gray-700 backdrop-blur-sm shadow-lg overflow-hidden">
           <ul className="divide-y divide-gray-700/50">
             {history.map((item) => (
               <li key={item.id} className="group hover:bg-blue-600/10 transition-colors duration-200">
                 <div className="px-6 py-4">
                   <div className="flex items-center justify-between">
                     <div className="flex flex-col">
-                      <div className="flex items-center text-gray-400 group-hover:text-gray-300 
-                                  transition-colors duration-200">
+                      <div className="flex items-center text-gray-400 group-hover:text-gray-300  transition-colors duration-200">
                         <Calendar className="mr-2 h-4 w-4" />
                         {item.createdAt}
                       </div>

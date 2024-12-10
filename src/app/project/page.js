@@ -182,7 +182,7 @@ else {
                <span className="info absolute right-3 top-1/2 -translate-y-1/2 text-gray-400 cursor-pointer z-10">
                 ?
                 <span className="tooltip absolute top-full mt-2 w-64 bg-gray-800 text-white text-sm rounded-md shadow-lg p-2 hidden ">
-                  Saisissez le nom complet de l'entreprise ici.
+                  Saisissez le nom complet de l entreprise ici.
                 </span>
               </span>
             </div>
@@ -199,7 +199,7 @@ else {
                <span className="info absolute right-3 top-1/2 -translate-y-1/2 text-gray-400 cursor-pointer  z-10">
                 ?
                 <span className="tooltip absolute top-full mt-2 w-64 bg-gray-800 text-white text-sm rounded-md shadow-lg p-2 hidden">
-                  Saisissez le lien de l'entreprise.
+                  Saisissez le lien de l entreprise.
                 </span>
               </span>
             </div>
@@ -208,7 +208,7 @@ else {
             <span className="info absolute right-3 top-5 -translate-y-1/2 text-gray-400 cursor-pointer  z-10">
                 ?
                 <span className="tooltip absolute top-full mt-2 w-64 bg-gray-800 text-white text-sm rounded-md shadow-lg p-2 hidden">
-                  Saisissez la description de l'entreprise ici.
+                  Saisissez la description de l entreprise ici.
                 </span>
               </span>
               <FileText className="absolute left-3 top-3 w-5 h-5 text-gray-400 group-focus-within:text-blue-500 transition-colors" />
